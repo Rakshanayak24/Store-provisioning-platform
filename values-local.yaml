@@ -1,0 +1,16 @@
+# values-local.yaml
+env: local
+
+storeId: ""
+
+domainSuffix: 127.0.0.1.nip.io
+
+mysql:
+  image: mysql:8.0
+  storageSize: 2Gi
+  database: wordpress
+  user: wpuser
+
+wordpress:
+  image: wordpress:php8.2-apache
+  replicas: 1

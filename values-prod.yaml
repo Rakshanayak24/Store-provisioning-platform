@@ -1,0 +1,16 @@
+# values-prod.yaml
+env: prod
+
+storeId: ""
+
+domainSuffix: myvps.com
+
+mysql:
+  image: mysql:8.0
+  storageSize: 5Gi
+  database: wordpress
+  user: wpuser
+
+wordpress:
+  image: wordpress:php8.2-apache
+  replicas: 2

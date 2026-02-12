@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+body {
+  margin: 0;
+  background: #f6f7fb;
+  color: #111;
+}
+
+button {
+  cursor: pointer;
+}
+
