@@ -1,4 +1,4 @@
-#Store Provisioning Platform
+### Store Provisioning Platform
 
 This project implements a Kubernetes-native multi-tenant store provisioning platform.
 
