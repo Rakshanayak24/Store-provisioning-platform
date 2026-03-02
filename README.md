@@ -1,4 +1,4 @@
-# Urumi Store Provisioning Platform (Round 1)
+#Store Provisioning Platform
 
 This project implements a Kubernetes-native multi-tenant store provisioning platform.
 
